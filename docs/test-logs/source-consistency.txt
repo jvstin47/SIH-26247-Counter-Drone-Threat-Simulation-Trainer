@@ -1,0 +1,2 @@
+PASS: TypeScript/TSX syntax transpilation and local-import/export check (42 source/test files).
+NOTE: this is a source consistency check, not a substitute for the full `tsc -b` typecheck after npm dependencies are installed.

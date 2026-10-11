@@ -1,0 +1,2 @@
+import type { Track } from '../types';
+export function Radar({tracks,selectedId,onSelect}:{tracks:Track[];selectedId:string|null;onSelect:(id:string)=>void}){const pts=tracks.map(t=>({t,x:50+(t.x/110)*42,y:50+(t.z/110)*42}));return <div className="radar"><div className="radar-sweep"/><div className="cross-h"/><div className="cross-v"/>{pts.map(p=><button aria-label={`Select ${p.t.id}`} key={p.t.id} className={selectedId===p.t.id?'track-dot selected':'track-dot'} style={{left:`${p.x}%`,top:`${p.y}%`}} onClick={()=>onSelect(p.t.id)}/>)}</div>}

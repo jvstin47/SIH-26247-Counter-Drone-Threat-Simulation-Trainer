@@ -1,0 +1,21 @@
+AID-C2S V5 — PHONE DEMO
+
+Quick start on Android:
+1. Download AID-C2S-V5-PHONE-DEMO.html (or open mobile-demo/index.html from the full V5 ZIP).
+2. Open your Downloads app / Files app.
+3. Tap the .html file and choose Chrome or another HTML-capable browser/viewer.
+4. If it offers only a text editor, use Open with / Share and select a browser or HTML Viewer.
+
+No Node.js, npm, server, account, or internet connection is needed for this standalone demo.
+It runs as a single local HTML file with a responsive interface and Canvas-generated moving simulation.
+
+Try this path:
+Command → Start Demo Session → select a track → choose a classification → set confidence → choose Monitor/Escalate/Resolve → Submit Assessment → Finish & Review → Replay.
+You can also test the Scenario Lab, sensor degradation, profile creation, session history, analytics, backup export and system diagnostics.
+
+The demo uses browser localStorage when available and a per-page memory fallback when a local file viewer blocks storage. Persistent history after closing the file depends on the Android browser/viewer.
+
+For the full Windows application, extract AID-C2S-V5-FINAL.zip on your Windows laptop and run:
+AID-C2S-V5-FINAL/START-AID-C2S-V5.bat
+
+This phone demo is a lightweight companion, not the full Babylon.js/WebGPU desktop build. Contacts and evidence are synthetic.

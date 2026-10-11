@@ -1,0 +1,131 @@
+V5 OFFLINE CORE VALIDATION: 20 tests passed.
+TAP version 13
+# Subtest: seeded PRNG repeats an identical stream
+ok 1 - seeded PRNG repeats an identical stream
+  ---
+  duration_ms: 1.080278
+  type: 'test'
+  ...
+# Subtest: scenario and entity generation are deterministic for equal seeds
+ok 2 - scenario and entity generation are deterministic for equal seeds
+  ---
+  duration_ms: 0.673447
+  type: 'test'
+  ...
+# Subtest: different seeds produce different world entities
+ok 3 - different seeds produce different world entities
+  ---
+  duration_ms: 0.302087
+  type: 'test'
+  ...
+# Subtest: showcase catalogue contains at least 20 unique seeded scenarios
+ok 4 - showcase catalogue contains at least 20 unique seeded scenarios
+  ---
+  duration_ms: 0.233025
+  type: 'test'
+  ...
+# Subtest: scenario validation normalizes seed and rejects dangerous bounds
+ok 5 - scenario validation normalizes seed and rejects dangerous bounds
+  ---
+  duration_ms: 0.694828
+  type: 'test'
+  ...
+# Subtest: sensor fusion repeats the same observation stream for the same seed
+ok 6 - sensor fusion repeats the same observation stream for the same seed
+  ---
+  duration_ms: 0.671493
+  type: 'test'
+  ...
+# Subtest: synthetic ambiguous returns are rate-limited and do not flood per frame
+ok 7 - synthetic ambiguous returns are rate-limited and do not flood per frame
+  ---
+  duration_ms: 4.797979
+  type: 'test'
+  ...
+# Subtest: same-entity sensor observations form one fused track with history
+ok 8 - same-entity sensor observations form one fused track with history
+  ---
+  duration_ms: 0.585877
+  type: 'test'
+  ...
+# Subtest: noisy sensor signature propagates into the track and is used by local perception
+ok 9 - noisy sensor signature propagates into the track and is used by local perception
+  ---
+  duration_ms: 0.450307
+  type: 'test'
+  ...
+# Subtest: ghost and real entity tracks cannot cross-associate even when close
+ok 10 - ghost and real entity tracks cannot cross-associate even when close
+  ---
+  duration_ms: 0.215408
+  type: 'test'
+  ...
+# Subtest: nearby distinct ground-truth entities cannot merge
+ok 11 - nearby distinct ground-truth entities cannot merge
+  ---
+  duration_ms: 0.235509
+  type: 'test'
+  ...
+# Subtest: classification/resolution lifecycle remains stable under future observations
+ok 12 - classification/resolution lifecycle remains stable under future observations
+  ---
+  duration_ms: 0.259955
+  type: 'test'
+  ...
+# Subtest: stale tracks become LOST and return as REACQUIRED when seen again
+ok 13 - stale tracks become LOST and return as REACQUIRED when seen again
+  ---
+  duration_ms: 0.148409
+  type: 'test'
+  ...
+# Subtest: REACQUIRED survives all sensor observations for one tick and clears on the next tick
+ok 14 - REACQUIRED survives all sensor observations for one tick and clears on the next tick
+  ---
+  duration_ms: 0.13525
+  type: 'test'
+  ...
+# Subtest: resolved tracks keep moving and do not duplicate when observations continue
+ok 15 - resolved tracks keep moving and do not duplicate when observations continue
+  ---
+  duration_ms: 0.111055
+  type: 'test'
+  ...
+# Subtest: scoring rewards correct answers and does not mutate ground truth
+ok 16 - scoring rewards correct answers and does not mutate ground truth
+  ---
+  duration_ms: 0.442194
+  type: 'test'
+  ...
+# Subtest: missing classifications remain in the denominator and ghost false positives are penalized
+ok 17 - missing classifications remain in the denominator and ghost false positives are penalized
+  ---
+  duration_ms: 0.219174
+  type: 'test'
+  ...
+# Subtest: adaptive difficulty rises/falls within defined bounds
+ok 18 - adaptive difficulty rises/falls within defined bounds
+  ---
+  duration_ms: 0.19593
+  type: 'test'
+  ...
+# Subtest: local synthetic classifier is deterministic and normalizes output probabilities
+ok 19 - local synthetic classifier is deterministic and normalizes output probabilities
+  ---
+  duration_ms: 84.184133
+  type: 'test'
+  ...
+# Subtest: track inference uses only observed state and gives valid confidence
+ok 20 - track inference uses only observed state and gives valid confidence
+  ---
+  duration_ms: 0.287745
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 117.106951

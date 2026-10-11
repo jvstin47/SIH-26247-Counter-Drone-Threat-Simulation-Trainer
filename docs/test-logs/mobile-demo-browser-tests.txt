@@ -1,0 +1,9 @@
+PASS launch command
+PASS navigation tabs 11
+PASS scenario generate/save
+PASS sensor degradation action
+PASS local profile creation
+PASS assessment, scoring and AAR
+PASS replay controls
+PASS session history
+PASS no JavaScript page errors

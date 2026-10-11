@@ -1,0 +1,14 @@
+{
+  "name": "AID-C2S V5 — Simulation Trainer",
+  "short_name": "AID-C2S V5",
+  "description": "Local-first synthetic simulation, tracking, training and after-action review.",
+  "start_url": "/#/command",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070809",
+  "theme_color": "#070809",
+  "orientation": "landscape",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

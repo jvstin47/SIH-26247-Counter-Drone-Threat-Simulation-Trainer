@@ -1,0 +1,10 @@
+PASS health endpoint reports V5 service
+PASS scenario CRUD persists validated scenario
+PASS sessions and profiles persist in local API
+PASS backup import merges by ID without duplicate records
+PASS malformed scenarios are rejected with a useful 400
+PASS unknown routes and disallowed origins are rejected
+PASS settings are validated and saved
+PASS writes are persisted and last-known-good backup is retained
+
+V5 BACKEND API: 8 passed, 0 failed.

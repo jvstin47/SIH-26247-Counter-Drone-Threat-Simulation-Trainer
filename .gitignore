@@ -1,0 +1,29 @@
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+playwright-report/
+test-results/
+coverage/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+src-tauri/target/
+
+# Local API data (contains local training records)
+server/data/
+server/*.tmp
+server/*.bak
+
+# Temporary/archive directories
+Oldwork/
+__pycache__/
+*.pyc
+
