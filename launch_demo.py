@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Phoenix-X / AID-C2S Master Demo Launcher
+SIH 26247 / AID-C2S Master Demo Launcher
 Launches the zero-dependency interactive simulation trainer and opens it in your default browser.
 """
 
@@ -25,7 +25,7 @@ class QuietHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 def main():
     print("=" * 72)
-    print(" Phoenix-X: AI-Enabled Drone & Counter-Drone Threat Simulation Trainer")
+    print(" SIH 26247: AI-Enabled Drone & Counter-Drone Threat Simulation Trainer")
     print(" Problem Statement ID: 26247 | Ministry of Defence (MoD) | DSSC")
     print("=" * 72)
     print(f"\n[*] Serving local trainer interface from: {DIRECTORY}")

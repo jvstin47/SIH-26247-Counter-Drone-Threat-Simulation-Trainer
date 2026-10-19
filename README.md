@@ -1,4 +1,4 @@
-# PHOENIX-X: AI-Enabled Drone & Counter-Drone Threat Simulation Trainer
+# SIH 26247: AI-Enabled Drone & Counter-Drone Threat Simulation Trainer
 
 [![SIH Problem Statement 26247](https://img.shields.io/badge/SIH%202024-Problem%2026247-blue.svg)](https://sih.gov.in)
 [![Ministry of Defence](https://img.shields.io/badge/Sponsor-Ministry%20of%20Defence-003366.svg)](#)
@@ -26,11 +26,11 @@ Recent conflicts demonstrate that low-cost commercial and military-grade drones�
 
 ## 🎯 Solution Architecture & Core Features
 
-Phoenix-X provides a high-repetition, unit-deployable synthetic training environment that runs on standard laptops without requiring VR headsets, physical sensors, or external GPU servers.
+This platform provides a high-repetition, unit-deployable synthetic training environment that runs on standard laptops without requiring VR headsets, physical sensors, or external GPU servers.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                               PHOENIX-X ARCHITECTURE                                    │
+│                       SIMULATOR ARCHITECTURE & TRAINING PIPELINE                        │
 ├─────────────────────────────────────────────────────────────────────────────────────────┤
 │  1. PROCEDURAL SCENARIO DNA ENGINE                                                      │
 │     • Seed-reproducible 3D & 2D tactical arenas                                         │
